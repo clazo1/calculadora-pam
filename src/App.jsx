@@ -45,7 +45,7 @@ export default function PAMCalculator() {
     // Determinar el mensaje según el valor de PAM
     if (pamCalculada <= 60) {
       setMensaje('Atención: No dar nada. Reportar!');
-    } else if (pamCalculada > 60 && pamCalculada < 80) {
+    } else if (pamCalculada > 60 && pamCalculada < 82) {
       setMensaje('Dar sólo la dosis base.');
     } else {
       setMensaje('Añadir media pastilla de Furosemida 40mg');
