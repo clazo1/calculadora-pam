@@ -14,9 +14,9 @@ export default function PAMCalculator() {
     const dayOfYear = Math.floor((today - startOfYear) / (1000 * 60 * 60 * 24)) + 1;
     
     if (dayOfYear % 2 === 0) {
-      setMensajeJarabe('Se debe tomar el jarabe (día par)');
+      setMensajeJarabe('Hoy se debe tomar el jarabe (día par)');
     } else {
-      setMensajeJarabe('No se debe tomar el jarabe (día impar)');
+      setMensajeJarabe('Hoy no se debe tomar el jarabe (día impar)');
     }
   }, []);
 
